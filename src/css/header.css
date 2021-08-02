@@ -1,0 +1,20 @@
+.header-container {
+
+}
+
+.header-container .tracking {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.header-container .tracking .title {
+  color: #00466E;
+  font: normal normal bold 20px/24px Work Sans;
+}
+
+.header-container .tracking .stats {
+  font: normal normal normal 16px/19px Work Sans;
+  letter-spacing: 0px;
+  color: #006B6E;
+}

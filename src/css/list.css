@@ -1,0 +1,60 @@
+.list-container {
+  padding: 30px;
+}
+
+.list-container .title {
+  font: normal normal bold 20px/24px Work Sans;
+  letter-spacing: 0px;
+  color: #00466E;
+}
+
+.list-container .list {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.list-container .list .name {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-container .list .name .text{
+  font: normal normal 600 24px/28px Work Sans;
+  letter-spacing: 0px;
+  color: #181818;
+}
+
+.list-container .list .name .link {
+  margin-top: 5px;
+  font: normal normal normal 16px/19px Work Sans;
+  letter-spacing: 0px;
+  color: #00466E;
+}
+
+.list-container .list .action-container {
+  display: flex;
+  align-items: center;
+}
+
+.list-container .list .action-container .time {
+  font: normal normal normal 16px/19px Work Sans;
+  letter-spacing: 0px;
+  color: #B4B4B4;
+  margin-right: 10px;
+}
+
+.list-container .list .action-container .btn .Live {
+  background: #058423 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.list-container .list .action-container .btn .Error {
+  background: #FC5200 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  padding: 10px 20px;
+  color: #fff;
+}
+

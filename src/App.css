@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: 40px;
+  border: 1px solid #B4B4B4;
 }
 
 .App-logo {
@@ -35,4 +38,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.parentDisable{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #666;
+  opacity: 0.8;
+  z-index: 998;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay-box {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  color: white; background: #666666; opacity: .8;
+  z-index: 1000;
+}
+
+.loader-gear {
+  background: url("./HOC/loader.gif") no-repeat;
+  height: 200px;
+  width: 200px;
 }
